@@ -1,0 +1,75 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu projeto</title>
+	<meta charset="utf-8">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+	<form>
+		<fieldset>
+			<legend>Formulario responsivo</legend>
+
+						<div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+
+						<div><input type="text" name="CPF" placeholder="Digite o seu CPF"></div>
+
+						<div><input type="text" name="endereço" placeholder="Digite o seu endereço"></div>
+
+						<div><input type="text" name="email" placeholder="Digite o seu e-mail"></div>
+
+
+				<div>
+					<select name="lista">
+						<option disabled selected> Qual sua idade ?</option>
+						<option value="-18">-18</option>
+						<option value="+18">+18</option>
+					</select>
+				</div>
+
+
+				<h2>Qual sua cidade ?</h2>
+				<div class="input">
+
+						<div>
+							<input type="radio" name="cidade" value="São Paulo - SP"/><span>São Paulo - SP</span>
+						</div>
+
+						<div>
+							<input type="radio" name="cidade" value="Praia Grande - SP"/><span>Praia Grande - SP</span>
+						</div>
+
+						<div>
+							<input type="radio" name="cidade" value="Peruibe - SP"/><span>Peruibe - SP</span>
+						</div>
+
+						</div>
+
+				<h2>O que procura ?</h2>
+				<div class="input">
+
+						<div>
+							<input type="checkbox" name="cidade[]" value="Peças"/><span>Peças</span>
+						</div>
+
+						<div>
+							<input type="checkbox" name="cidade[]" value="Fornecedores"/><span>Fornecedores</span>
+						</div>
+
+						<div>
+							<input type="checkbox" name="cidade[]" value="Lojas proximas a você"/><span>Lojas proximas a você </span>
+						</div>
+
+				
+			<div>
+				<textarea name="observaçao" placeholder="Deixe sua opinião !"></textarea>
+			</div>
+			<div>
+					<input type="submit" name="açao" value="Enviar">
+			</div>
+		</fieldset>
+</body>
+</html>
